@@ -36,11 +36,12 @@
 }
 
 .App{
-  background: url(/src/data/assets/home/background-home-desktop.jpg);
+  background: url(/public/assets/home/background-home-desktop.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100vh;
+  
 }
 
 nav{
@@ -113,4 +114,230 @@ nav{
   justify-content: center;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* destination */
+.destination-content{
+  margin-top:-2rem;
+}
+.destination h1{
+  color:white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-left: 17rem;
+}
+.destination-toggle{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+ /*  padding: 2rem 6rem;
+  gap: 2rem; */
+}
+
+.destination-toggle button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 3rem;
+  margin-left: -2rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.destination-toggle button:hover{
+  border-bottom: 2px solid white;
+}
+
+.destination-id{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -2rem;
+}
+.destination-image img{
+  margin-top: -1rem;
+  height: 400px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.destination-detials{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  color: white;
+  margin-top: -5rem;
+}
+
+.destination-detials  h2{
+  font-size: 4rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  
+}
+
+.destination-detials p{
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: -2rem;
+}
+
+.strong{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid white;
+}
+
+.strong p{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  font-family: sans-serif;
+  gap: 10px;
+}
+.strong p strong{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.crew h1{
+  color:white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-left: 17rem;
+}
+
+.crew-id{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top:-3rem;
+}
+
+.crew-details{
+  width: 500px;
+  color: white;
+  font-family: sans-serif;
+}
+.crew-details h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.crew-details h2{
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.crew-details p{
+  width: 400px;
+}
+
+
+.crew-image img{
+  height: 400px;
+}
+
+.dot-indicator{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 10px;
+}
+
+.dot-indicator .dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: #ddd;
+  transition: background-color 0.3s ease;
+  
+}
+
+.dot-indicator .dot .active{
+  background-color: green;
+}
+
+/* Technology */
+
+.tech h1{
+  color:white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-left: 17rem;
+}
+.tech-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.tech-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.tech-btn button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.tech-id{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.tech-id h3{
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.tech-id h2{
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.tech-id p{
+  width: 450px;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.tech-image img{
+  width: 600px;
+  height: 400px;
 }
