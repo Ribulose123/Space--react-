@@ -20,7 +20,7 @@ const Destination = () => {
           </button>
         ))}
       </div>
-      
+
       <div>
         <h2>{currentDestination.name}</h2>
         <img src={currentDestination.images.png} alt={currentDestination.name} />
