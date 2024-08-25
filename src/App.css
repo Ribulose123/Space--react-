@@ -36,7 +36,7 @@
 }
 
 .App{
-  background: url(/assets/home/background-home-desktop.jpg);
+  background: url(/src/data/assets/home/background-home-desktop.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
